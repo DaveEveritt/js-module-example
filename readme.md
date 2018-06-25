@@ -14,4 +14,5 @@ Although [ES6 module syntax is supported in most modern browsers](https://www.ca
 ## TO DO
 
 - [ ] improve links to local servers
+- [ ] add link to CodeCademy tutorial
 - [ ] document CommonJS, AMD and ES6
