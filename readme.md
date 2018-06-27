@@ -23,7 +23,7 @@ What no-one mentions, either because they've been using node since before the di
 2. in your HTML, you only need a single `script` tag with the "module" attribute for your main JavaScript file, from which you can import module files.
 3. [Same-origin policy](https://stackoverflow.com/a/46992592/123033) applies, so can't run from a file system (e.g. dragging your HTML file to the browser). Start a local server from the command-line in the folder containing the HTML file - use node `http-server` or another [static server command for a popular language](#static-server-one-liners) listed below.
 4. MDN covers ES6 modules very well under [`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export), but **ignore** finds on MDN for *JavaScript code modules*, these are [*Firefox-specific* "JavaScript code modules"](https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules), **not** JavaScript ES6 modules. Confusing, eh?
-5. you can `import` modules outside or inside (as in these examples) an IFFE, and they're "use strict" by default, so no need to declare it explicitly in the module
+5. you must `import` modules before an IFFE, and they're "use strict" by default, so no need to declare it explicitly in the module
 
 ## TO DO
 
