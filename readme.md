@@ -8,6 +8,8 @@ This simplifies things and is all you need to break down your JavaScript code in
 
 ## A little history: AMD and Common JS
 
+> "The goal for ECMAScript 6 modules was to create a format that both users of CommonJS and of AMD are happy with" —[Exploring JS](http://exploringjs.com/es6/ch_modules.html)
+
 When searching *JavaScript modules* on the web, you'll come across (often older pre-**ES6 module**) examples using **AMD** and **CommonJS** syntax (originating from the JavaScript front-end library Dojo and the JavaScript server environment node) both created to implement JS modules before widespread support:
 
 - AMD: Asynchronous Module Definition, asynchronous, targeted at browser environments (from Dojo)
